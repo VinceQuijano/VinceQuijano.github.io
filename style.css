@@ -1,0 +1,64 @@
+ .qr-small {
+     width: 250px;
+     height: auto;
+     display: inline-block;
+ }
+p.big-name {
+    font-size: 2.2em;
+}
+@font-face {
+    font-family: 'Gilgan';
+    src: url('Gilgan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.section {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.screenshot-shadow {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25), 0 1.5px 6px rgba(0,0,0,0.18);
+    border-radius: 8px;
+}
+.shondo-bigger-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.shondo-bigger {
+    max-width: 750px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18), 0 1.5px 6px rgba(0,0,0,0.12);
+    padding: 32px 24px;
+    margin: 32px auto;
+    max-width: 600px;
+}
+p {
+    font-family: 'Gilgan', Arial, sans-serif;
+    font-size: 20px;
+}
+p:has(h1), p:has(i) {
+    font-size: 16px;
+}
